@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="320" viewBox="0 0 240 320">
+  <rect x="20" y="20" width="200" height="280" rx="8" fill="#e9e9e9" stroke="#333" stroke-width="4"/>
+  <rect x="45" y="55" width="150" height="70" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="120" y="82" text-anchor="middle" font-family="sans-serif" font-size="16">CATÁLOGO</text>
+  <text x="120" y="108" text-anchor="middle" font-family="sans-serif" font-size="18">EL QUIJOTE</text>
+  <path d="M70 170 L120 145 L170 170 L170 245 L120 270 L70 245 Z" fill="#ffffff" stroke="#333" stroke-width="3"/>
+  <text x="120" y="215" text-anchor="middle" font-family="sans-serif" font-size="14">LIBRO</text>
+</svg>
