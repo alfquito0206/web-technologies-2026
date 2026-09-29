@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+  <link rel="stylesheet" href="estilos.css">
   <meta charset="UTF-8">
   <title>Catálogo</title>
 </head>
+
 <body>
   <header>
     <h1>Catálogo de libros</h1>
@@ -15,7 +18,27 @@
       <p class="destacado">Búsqueda de libros</p>
 
       <!-- Completa aquí el formulario -->
+
+      <form method="GET" action="buscar.html">
+        <label for="tituloId">Titulo
+          <input id="tituloId" name="titulo" type="text">
+
+          <label for="autorId">Autor</label>
+          <input id="autorId" name="autor" type="text">
+
+          <label for="disponibleId">Solo disponibles</label>
+          <input id="disponibleId" name="disponible" type="checkbox" value="si">
+
+          <label for="comentarioId">Comentario</label>
+          <textarea id="comentarioId" name="comentario" rows="4" cols="40"></textarea>
+
+          <button type="submmit">Buscar</button>
+
+        </label>
+      </form>
     </section>
+
   </main>
 </body>
+
 </html>

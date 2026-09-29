@@ -1,1 +1,13 @@
 /* Completa este archivo siguiendo el enunciado. */
+
+h1 {
+    color: darkblue;
+}
+
+.destacado {
+    font-weight: bold;
+}
+
+#aviso {
+    background-color: lightyellow;
+}
