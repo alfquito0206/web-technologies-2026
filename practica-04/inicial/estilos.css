@@ -4,7 +4,10 @@ body {
 
 .catalogo {
   /* Completa aquí las propiedades Flex indicadas en el enunciado. */
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .tarjeta {
@@ -12,5 +15,5 @@ body {
   background-color: lightyellow;
   border: 2px solid darkblue;
   padding: 12px;
-  margin: 0;
+  margin: 5px;
 }
