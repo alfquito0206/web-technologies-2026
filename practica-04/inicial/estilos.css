@@ -8,6 +8,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 12px;
+
+  justify-content: center;
+  align-items: stretch;
 }
 
 .tarjeta {
