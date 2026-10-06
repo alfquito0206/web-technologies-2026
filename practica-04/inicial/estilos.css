@@ -4,8 +4,13 @@ body {
 
 .catalogo {
   /* Completa aquí las propiedades Flex indicadas en el enunciado. */
+
 }
 
 .tarjeta {
-  /* Completa aquí el modelo de caja indicado en el enunciado. */
+  width: 200px;
+  background-color: lightyellow;
+  border: 2px solid darkblue;
+  padding: 12px;
+  margin: 0;
 }
