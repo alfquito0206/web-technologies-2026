@@ -19,9 +19,11 @@ function calcularTotal(unidades, precio) {
 function clasificarPrecio(precio) {
   // TODO: devolver 'alto' si precio >= 20
   // TODO: devolver 'normal' en otro caso
-
-
-
+  if (precio >= 20) {
+    return 'alto';
+  } else {
+    return 'normal';
+  }
 }
 
 console.log('Total 3 x 12.5:', calcularTotal(3, 12.5));
