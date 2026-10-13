@@ -9,11 +9,19 @@ console.log('Tipo de precio:', typeof precio);
 function calcularTotal(unidades, precio) {
   // TODO: si unidades <= 0 o precio <= 0, devolver 0
   // TODO: en otro caso, devolver unidades * precio
+  if (unidades <= 0 || precio <= 0) {
+    return 0;
+  } else {
+    return unidades * precio;
+  }
 }
 
 function clasificarPrecio(precio) {
   // TODO: devolver 'alto' si precio >= 20
   // TODO: devolver 'normal' en otro caso
+
+
+
 }
 
 console.log('Total 3 x 12.5:', calcularTotal(3, 12.5));
