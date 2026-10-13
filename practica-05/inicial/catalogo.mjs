@@ -35,3 +35,11 @@ console.log('unidades === 3:', unidades === 3);
 console.log("Number('4') + unidades:", Number('4') + unidades);
 
 // TODO: usar un for para mostrar los totales de 1, 2 y 3 unidades a precio 10
+
+for (let i = 0; i < 4; i++) {
+
+  if (i > 0) {
+    let total = calcularTotal(i, 10);
+    console.log(total);
+  }
+}
