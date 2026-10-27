@@ -11,7 +11,7 @@ export function crearCatalogoView() {
     lista.innerHTML = '';
     for (const libro of libros){
       const li = document.createElement('li')
-      li.textContent = libro.titulo;
+      li.textContent = `${libro.titulo} - ${libro.precio}`;
       lista.append(li);
     }
   }
